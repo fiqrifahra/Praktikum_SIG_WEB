@@ -6,12 +6,15 @@
 <body>
     <h1>Kalkulator Faktorial</h1>
     <hr>
-    <label for="number">Masukkan angka:</label>
-    <input type="number" id="number" min="0">
+    <p>Masukkan sebuah angka:</p>
+
+    <label for="inputAngka">Angka:</label>   
+    <input type="number" id="inputAngka" min="0">
     <br>
     <br>
-    <button onclick="hitungFaktorial()">Hitung Faktorial</button>
-    <p id="result"></p>
+    <button onclick="bilanganFaktorial()">Hitung Faktorial</button>
+
+    <p id="hasil"></p>
     <br>
     <br>
     <br>
@@ -25,10 +28,10 @@
             return n * faktorial(n - 1);
         }
         
-        function hitungFaktorial() {
-            var inputValue = parseInt(document.getElementById("number").value);
+        function bilanganFaktorial() {
+            var inputValue = parseInt(document.getElementById("inputAngka").value);
             var result = faktorial(inputValue);
-            document.getElementById("result").innerHTML = "Faktorial dari " + inputValue + " adalah " + result;
+            document.getElementById("hasil").innerHTML = "Faktorial dari " + inputValue + " adalah " + result;
         }
     </script>
 </body>
