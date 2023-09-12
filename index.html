@@ -2,53 +2,171 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Fiqri Fahra</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Landing Page - Fiqri Fahra</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="Portfolio-Bootstrap 5 Template/ugm1new.png" rel="icon" />
+    <link href="Portfolio-Bootstrap 5 Template/assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+
+    <!-- Vendor CSS Files -->
+    <link href="Portfolio-Bootstrap 5 Template/assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="Portfolio-Bootstrap 5 Template/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Portfolio-Bootstrap 5 Template/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="Portfolio-Bootstrap 5 Template/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="Portfolio-Bootstrap 5 Template/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="Portfolio-Bootstrap 5 Template/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="Portfolio-Bootstrap 5 Template/assets/css/style.css" rel="stylesheet" />
+
   </head>
 
-  <body id="home">
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #c08261">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="Portfolio-Bootstrap 5/ugm1new.png" alt="Bootstrap" width="30" height="30" />
-        </a>
-        <a class="navbar-brand" href="#">Fiqri Fahra</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+  <body>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+    <!-- ======= Header ======= -->
+    <header id="header" style="background-color: #c08261">
+      <div class="d-flex flex-column">
+        <div class="profile">
+          <img src="Portfolio-Bootstrap 5 Template/fiq2.jpg" alt="" class="img-fluid rounded-circle border-warning" style="background-color: #FFBB5C" />
+          <h1 class="text-light"><a href="index.html">Fiqri Fahra <br><i>21/473296/TK/52153</i> </a></h1>
+          <div class="social-links mt-3 text-center" >
+            
+            <a href="https://www.facebook.com/fiqri.fahra/" class="facebook" style="background-color: #FFBB5C"><i class="bx bxl-facebook" ></i></a>
+            <a href="https://www.instagram.com/fiqfahra/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" class="instagram " style="background-color: #FFBB5C"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="google-plus" style="background-color: #FFBB5C"><i class="bx bxl-skype"></i></a>
+            <a href="#" class="linkedin" style="background-color: #FFBB5C"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+
+        <nav id="navbar" class="nav-menu navbar navbar-dark" style="background-color: #c08261">
+          <ul>
+            <li>
+              <a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#About">About Me</a>
+            <li>
+              <a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Educations">Educations</a>
+            <li>
+              <a href="#Educations" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Educations</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Experiences">Experiences</a>
+            <li>
+              <a href="#Experiences" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Experiences</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Excercises">Excercises</a>
+            <li>
+              <a href="#Exercises" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Exercises</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Contact">Contact</a>
+            <li>
+              <a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
             </li>
           </ul>
-        </div>
+        </nav>
+        <!-- .nav-menu -->
       </div>
-    </nav>
-    <!--Akhir Navbar-->
+    </header>
+    <!-- End Header -->
 
-    <!--Jumbotron-->
-    <section class="jumbotron text-center" style="padding-top: 7rem">
-      <img src="Portfolio-Bootstrap 5/fiq1.jpg" alt="Fiqri Fahra" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Fiqri Fahra</h1>
-      <p class="lead">Student | Geodetical Engineering</p>
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+      <div class="hero-container" data-aos="fade-in">
+        <h1>Fiqri Fahra</h1>
+        <p>I'm <span class="typed" data-typed-items="Undergraduate"></span></p>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about" style="background-color: #faf1e4">
+        <div class="container">
+          <div class="section-title">
+            <h2>About</h2>
+            <p>
+              Seorang pelajar yang berdedikasi dan berpengalaman dalam bidang Teknik Geodesi. Saat ini bersekolah di Teknik Geodesi dari Universitas Gadjah Mada. Memiliki keterampilan teknis yang kuat dalam bidang geodesi-geomatika yang
+              dikombinasikan dengan kemampuan luar biasa dalam survey pemetaan dan GIS.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img src="Portfolio-Bootstrap 5 Template/fiq4.jpg" class="border img-fluid border-5 border-warning" alt="" />
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <h3>My Profile</h3>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>20 June 2023</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>-</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+62 8539 3879 666 </span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Yogyakarta</span></li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>20</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Undergraduate</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>fiqri.fahra@mail.ugm.ac.id</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Status:</strong> <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FAF1E4" fill-opacity="1" d="M0,128L21.8,112C43.6,96,87,64,131,80C174.5,96,218,160,262,165.3C305.5,171,349,117,393,112C436.4,107,480,149,524,154.7C567.3,160,611,128,655,144C698.2,160,742,224,785,245.3C829.1,267,873,245,916,197.3C960,149,1004,75,1047,42.7C1090.9,11,1135,21,1178,58.7C1221.8,96,1265,160,1309,160C1352.7,160,1396,96,1418,64L1440,32L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z"></path></svg>
+      <!-- End About Section -->
+
+      <!-- ======= Educations Section ======= -->
+      <section id="Educations" class="Educations">
+        <div class="container">
+          <div class="section-title">
+            <h2>Educations</h2>
+            <p>
+              
+            </p>
+          </div>
+          <div class="row justify-content-center m-2">
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img src="Portfolio-Bootstrap 5 Template/sman1ptknew.png" class="card-img-top border border-5 border-warning" alt="foto1" />
+                <div class="card-body">
+                  <h5 class="card-title">SMA NEGERI 1 Pontianak | <i>2018-2021</i></h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Student</h6>
+                  <p class="card-text">
+                    Sebagai lulusan SMA Negeri 1, saya telah mendapatkan landasan pendidikan yang kokoh dan beragam pengalaman yang telah membantu membentuk kepribadian, keterampilan, dan nilai-nilai pribadi saya. Selama periode ini, saya telah
+                    mengembangkan pemahaman mendalam tentang berbagai mata pelajaran dan terlibat dalam berbagai kegiatan di dalam dan di luar kelas.
+                  </p>
+                  <a href="https://www.sman1ptk.sch.id/" class="card-link">SMAN 1 PTK</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img src="Portfolio-Bootstrap 5 Template/ugm1new.png" class="card-img-top border border-5 border-warning" alt="foto2" />
+                <div class="card-body">
+                  <h5 class="card-title">Universitas Gadjah Mada | <i>2021-Present</i></h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Geodetic Engineering</h6>
+                  <p class="card-text">
+                    Dalam kurikulum 2021, saya telah mempelajari berbagai mata pelajaran kunci, yang telah melengkapi saya dengan pemahaman mendalam tentang konsep-konsep geodesi, metode pengukuran, dan perangkat lunak terkait. Selain itu, saya
+                    juga terlibat dalam praktik lapangan yang membantu saya mengaplikasikan teori ke dalam praktek di dunia nyata.
+                  </p>
+                  <a href="https://ugm.ac.id/id/" class="card-link">UGM</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#FAF1E4"
@@ -57,243 +175,248 @@
         ></path>
       </svg>
     </section>
-    <!--Akhir Jumbotron-->
+      <!-- End Educations Section -->
 
-    <!--About-->
-    <section id="About" style="background-color: #faf1e4; padding-top: 7rem">
-      <div class="container">
-        <div class="row text-center mb-5">
-          <div class="col">
-            <h2>About Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center text-center">
-          <div class="col-4">
+      <!-- ======= Experiences Section ======= -->
+      <section id="Experiences" class="Experiences section-bg" style="background-color: #faf1e4">
+        <div class="container">
+          <div class="section-title">
+            <h2>Experiences</h2>
             <p>
-              Seorang pelajar yang berdedikasi dan berpengalaman dalam bidang Teknik Geodesi. Saat ini bersekolah di Teknik Geodesi dari Universitas Gadjah Mada. Memiliki keterampilan teknis yang kuat dalam bidang geodesi-geomatika yang
-              dikombinasikan dengan kemampuan luar biasa dalam survey pemetaan dan GIS.
+              
             </p>
           </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,256L16,229.3C32,203,64,149,96,133.3C128,117,160,139,192,165.3C224,192,256,224,288,229.3C320,235,352,213,384,208C416,203,448,213,480,224C512,235,544,245,576,245.3C608,245,640,235,672,213.3C704,192,736,160,768,170.7C800,181,832,235,864,266.7C896,299,928,309,960,309.3C992,309,1024,299,1056,298.7C1088,299,1120,309,1152,314.7C1184,320,1216,320,1248,282.7C1280,245,1312,171,1344,149.3C1376,128,1408,160,1424,176L1440,192L1440,320L1424,320C1408,320,1376,320,1344,320C1312,320,1280,320,1248,320C1216,320,1184,320,1152,320C1120,320,1088,320,1056,320C1024,320,992,320,960,320C928,320,896,320,864,320C832,320,800,320,768,320C736,320,704,320,672,320C640,320,608,320,576,320C544,320,512,320,480,320C448,320,416,320,384,320C352,320,320,320,288,320C256,320,224,320,192,320C160,320,128,320,96,320C64,320,32,320,16,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!--Akhir About-->
 
-    <!--Education-->
-    <section id="Educations" style="padding-top: 7rem">
-      <div class="container">
-        <div class="row text-center mb-5">
-          <div class="col"><h2>Educations</h2></div>
-        </div>
-      </div>
-      <div class="row justify-content-center m-5">
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img src="Portfolio-Bootstrap 5/sman1ptknew.png" class="card-img-top border border-5" alt="foto1" />
-            <div class="card-body">
-              <h5 class="card-title">SMA NEGERI 1 Pontianak | <i>2018-2021</i></h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">Student</h6>
-              <p class="card-text">
-                Sebagai lulusan SMA Negeri 1, saya telah mendapatkan landasan pendidikan yang kokoh dan beragam pengalaman yang telah membantu membentuk kepribadian, keterampilan, dan nilai-nilai pribadi saya. Selama periode ini, saya telah
-                mengembangkan pemahaman mendalam tentang berbagai mata pelajaran dan terlibat dalam berbagai kegiatan di dalam dan di luar kelas.
-              </p>
-              <a href="https://www.sman1ptk.sch.id/" class="card-link">SMAN 1 PTK</a>
+          <div class="row justify-content-center m-5">
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Formagama Kalbar</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Humas</h6>
+                  <p class="card-text">
+                    <br />Sebagai Staf di Departemen Hubungan Masyarakat, saya memiliki dedikasi untuk membangun citra positif dan hubungan yang kuat antara ormada dan pemangku kepentingan. Saya memiliki pemahaman mendalam tentang strategi
+                    komunikasi, pengelolaan merek, dan interaksi publik.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Staf Departemen Kewirausahaan</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Keluarga Mahasiswa Teknik Geodesi</h6>
+                  <p class="card-text"><br />Sebagai seorang Staf di Departemen Kewirausahaan, saya memiliki hasrat dan komitmen dalam mendukung ekosistem kewirausahaan yang dinamis dan berdaya saing.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Magang Mandiri</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Kantor Pertanahan Kabupaten Bantul</h6>
+                  <p class="card-text">
+                    <br />Sebagai seorang peserta magang di Kantor Pertanahan (ATR/BPN), saya telah memiliki kesempatan berharga untuk mendapatkan wawasan mendalam tentang proses administrasi pertanahan dan sistem manajemen kepemilikan lahan.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img src="Portfolio-Bootstrap 5/ugm1new.png" class="card-img-top border border-5" alt="foto2" />
-            <div class="card-body">
-              <h5 class="card-title">Universitas Gadjah Mada | <i>2021-Present</i></h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">Geodetic Engineering</h6>
-              <p class="card-text">
-                Dalam kurikulum 2021, saya telah mempelajari berbagai mata pelajaran kunci, yang telah melengkapi saya dengan pemahaman mendalam tentang konsep-konsep geodesi, metode pengukuran, dan perangkat lunak terkait. Selain itu, saya
-                juga terlibat dalam praktik lapangan yang membantu saya mengaplikasikan teori ke dalam praktek di dunia nyata.
-              </p>
-              <a href="https://ugm.ac.id/id/" class="card-link">UGM</a>
+      </section>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FAF1E4" fill-opacity="1" d="M0,256L21.8,224C43.6,192,87,128,131,101.3C174.5,75,218,85,262,122.7C305.5,160,349,224,393,245.3C436.4,267,480,245,524,234.7C567.3,224,611,224,655,208C698.2,192,742,160,785,144C829.1,128,873,128,916,144C960,160,1004,192,1047,208C1090.9,224,1135,224,1178,197.3C1221.8,171,1265,117,1309,117.3C1352.7,117,1396,171,1418,197.3L1440,224L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z"></path></svg>
+      <!-- End Portfolio Section -->
+
+      <!-- ======= Exercises Section ======= -->
+      <section id="Exercises" class="Exercises">
+        <div class="container">
+          <div class="section-title">
+            <h2>Exercises</h2>
+            <p>
+              
+            </p>
+          </div>
+
+          <div class="row justify-content-center table-responsive">
+            <div class="table-responsive col-md-8">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col" class="text-center">Minggu ke-</th>
+                    <th scope="col" class="text-center">Materi</th>
+                    <th scope="col" class="text-center">Tautan</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr>
+                    <td rowspan="3" class="align-middle text-center">Minggu 1 dan 2</td>
+                    <td>Membuat WEB dengan HTML Sederhana</td>
+                    <td><a href="Minggu 1/T1_M1_Fiqri Fahra.html" target="_ blank" class="align-middle text-center">Latihan 1</a></td>
+                  </tr>
+                  <tr>
+                    <td>Membuat WEB dengan HTML dan CSS</td>
+                    <td><a href="Minggu 1/T2_M1_Fiqri Fahra.html" target="_ blank" class="align-middle text-center">Latihan 2</a></td>
+                  </tr>
+                  <tr>
+                    <td>Membuat <i>Curriculum Vitae</i> di WIX</td>
+                    <td><a href="https://fiqrifahra.wixsite.com/mysite/" target="_ blank" class="align-middle text-center">Latihan 3</a></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="5" class="text-center align-middle">Minggu 3</td>
+                    <td>Hitung Faktorial</td>
+                    <td><a href="Minggu 3/T1_M3_Fiqri Fahra.html" target="_ blank" class="align-middle text-center">Latihan 1</a></td>
+                  </tr>
+                  <tr>
+                    <td>Validasi Input</td>
+                    <td><a href="Minggu 3/T2_M3_Fiqri Fahra.html" target="_ blank" class="align-middle text-center">Latihan 2</a></td>
+                  </tr>
+                  <tr>
+                    <td>Validasi Umur</td>
+                    <td><a href="Minggu 3/T3_M3_Fiqri Fahra.html" target="_ blank" class="align-middle text-center">Latihan 3</a></td>
+                  </tr>
+                  <tr>
+                    <td>Bilangan Prima</td>
+                    <td><a href="Minggu 3/T4_M3_Fiqri Fahra.html" target="_ blank" class="align-middle text-center">Latihan 4</a></td>
+                  </tr>
+                  <tr>
+                    <td>Bilangan Fibonacci</td>
+                    <td><a href="Minggu 3/T5_M3_Fiqri Fahra.html" target="_ blank" class="align-middle text-center">Latihan 5</a></td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
-        </div>
-      </div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+              fill="#ffffff"
+              fill-opacity="1"
+              d="M0,288L21.8,266.7C43.6,245,87,203,131,208C174.5,213,218,267,262,277.3C305.5,288,349,256,393,224C436.4,192,480,160,524,144C567.3,128,611,128,655,128C698.2,128,742,128,785,149.3C829.1,171,873,213,916,213.3C960,213,1004,171,1047,176C1090.9,181,1135,235,1178,229.3C1221.8,224,1265,160,1309,128C1352.7,96,1396,96,1418,96L1440,96L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"
+            ></path>
+          </svg>
+      </section>
+      <!-- End Services Section -->
+
+      
+
+      <!-- ======= Contact Section ======= -->
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#faf1e4"
-          fill-opacity="1"
-          d="M0,160L21.8,181.3C43.6,203,87,245,131,250.7C174.5,256,218,224,262,202.7C305.5,181,349,171,393,192C436.4,213,480,267,524,256C567.3,245,611,171,655,154.7C698.2,139,742,181,785,192C829.1,203,873,181,916,149.3C960,117,1004,75,1047,80C1090.9,85,1135,139,1178,160C1221.8,181,1265,171,1309,165.3C1352.7,160,1396,160,1418,160L1440,160L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!--Akhir Education-->
-
-    <!--Experiences-->
-    <section id="Experiences" style="background-color: #faf1e4; padding-top: 7rem">
-      <div class="container">
-        <div class="row text-center mb-5">
-          <div class="col"><h2>Experiences</h2></div>
-        </div>
-        <div class="row justify-content-center m-5">
-          <div class="col-md-3 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Formagama Kalbar</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">Humas</h6>
-                <p class="card-text">
-                  <br />Sebagai Staf di Departemen Hubungan Masyarakat, saya memiliki dedikasi untuk membangun citra positif dan hubungan yang kuat antara ormada dan pemangku kepentingan. Saya memiliki pemahaman mendalam tentang strategi
-                  komunikasi, pengelolaan merek, dan interaksi publik.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Staf Departemen Kewirausahaan</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">Keluarga Mahasiswa Teknik Geodesi</h6>
-                <p class="card-text"><br />Sebagai seorang Staf di Departemen Kewirausahaan, saya memiliki hasrat dan komitmen dalam mendukung ekosistem kewirausahaan yang dinamis dan berdaya saing.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Magang Mandiri</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">Kantor Pertanahan Kabupaten Bantul</h6>
-                <p class="card-text">
-                  <br />Sebagai seorang peserta magang di Kantor Pertanahan (ATR/BPN), saya telah memiliki kesempatan berharga untuk mendapatkan wawasan mendalam tentang proses administrasi pertanahan dan sistem manajemen kepemilikan lahan.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
           fill-opacity="1"
           d="M0,288L21.8,266.7C43.6,245,87,203,131,208C174.5,213,218,267,262,277.3C305.5,288,349,256,393,224C436.4,192,480,160,524,144C567.3,128,611,128,655,128C698.2,128,742,128,785,149.3C829.1,171,873,213,916,213.3C960,213,1004,171,1047,176C1090.9,181,1135,235,1178,229.3C1221.8,224,1265,160,1309,128C1352.7,96,1396,96,1418,96L1440,96L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"
         ></path>
       </svg>
-    </section>
-    <!--Akhir Experiences-->
+      <section id="contact" class="contact" style="background-color: #faf1e4">
+        <div class="container">
+          <div class="section-title">
+            <h2>Contact</h2>
+            <p>
+              
+            </p>
+          </div>
 
-    <!--Excercises-->
-    <section id="Excercises" style="padding-top: 7rem">
-      <div class="container">
-        <div class="row text-center mb-5">
-          <div class="col"><h2>Exercises</h2></div>
-        </div>
-      </div>
-      <div class="row justify-content-center table-responsive">
-        <div class="table-responsive col-md-8">
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col" class="text-center">Minggu ke-</th>
-                <th scope="col" class="text-center">Materi</th>
-                <th scope="col" class="text-center">Tautan</th>
-              </tr>
-            </thead>
-            <tbody class="table-group-divider">
-              <tr>
-                <td rowspan="3" class="align-middle text-center">Minggu 1 dan 2</td>
-                <td>Membuat WEB dengan HTML Sederhana</td>
-                <td><a href="Minggu 1/T1_M1_Fiqri Fahra.html" target="_ blank" class="align-middle text-center">Latihan 1</a></td>
-              </tr>
-              <tr>
-                <td>Membuat WEB dengan HTML dan CSS</td>
-                <td><a href="Minggu 1/T2_M1_Fiqri Fahra.html" target="_ blank" class="align-middle text-center">Latihan 2</a></td>
-              </tr>
-              <tr>
-                <td>Membuat <i>Curriculum Vitae</i> di WIX</td>
-                <td><a href="https://fiqrifahra.wixsite.com/mysite/" target="_ blank" class="align-middle text-center">Latihan 3</a></td>
-              </tr>
-              <tr>
-                <td rowspan="5" class="text-center align-middle">Minggu 3</td>
-                <td>Hitung Faktorial</td>
-                <td><a href="Minggu 3/T1_M3_Fiqri Fahra.html" target="_ blank" class="align-middle text-center">Latihan 1</a></td>
-              </tr>
-              <tr>
-                <td>Validasi Input</td>
-                <td><a href="Minggu 3/T2_M3_Fiqri Fahra.html" target="_ blank" class="align-middle text-center">Latihan 2</a></td>
-              </tr>
-              <tr>
-                <td>Validasi Umur</td>
-                <td><a href="Minggu 3/T3_M3_Fiqri Fahra.html" target="_ blank" class="align-middle text-center">Latihan 3</a></td>
-              </tr>
-              <tr>
-                <td>Bilangan Prima</td>
-                <td><a href="Minggu 3/T4_M3_Fiqri Fahra.html" target="_ blank" class="align-middle text-center">Latihan 4</a></td>
-              </tr>
-              <tr>
-                <td>Bilangan Fibonacci</td>
-                <td><a href="Minggu 3/T5_M3_Fiqri Fahra.html" target="_ blank" class="align-middle text-center">Latihan 5</a></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#faf1e4"
-          fill-opacity="1"
-          d="M0,160L24,138.7C48,117,96,75,144,58.7C192,43,240,53,288,80C336,107,384,149,432,144C480,139,528,85,576,101.3C624,117,672,203,720,197.3C768,192,816,96,864,85.3C912,75,960,149,1008,165.3C1056,181,1104,139,1152,149.3C1200,160,1248,224,1296,245.3C1344,267,1392,245,1416,234.7L1440,224L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!--Akhir Excercises-->
+          <div class="row" data-aos="fade-in">
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>Departemen Teknik Geodesi, Universitas Gadjah Mada, Sleman, DIY</p>
+                </div>
 
-    <!--Contact-->
-    <section id="Contact" style="background-color: #faf1e4; padding-top: 7rem">
-      <div class="container">
-        <div class="row">
-          <div class="row text-center mb-5">
-            <div class="col"><h2>Contact Me</h2></div>
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>fiqri.fahra@mail.ugm.ac.id</p>
+                </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+62 8539 3879 666</p>
+                </div>
+   
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15812.969705583975!2d110.3726583!3d-7.7640957!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58521ddc006d%3A0xf5d7db2383c151ce!2sDepartemen%20Teknik%20Geodesi%20UGM!5e0!3m2!1sid!2sid!4v1694497306024!5m2!1sid!2sid"
+                  frameborder="0"
+                  style="border: 0; width: 100%; height: 290px"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name" class="form-control" id="name" required />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Email</label>
+                    <input type="email" class="form-control" name="email" id="email" required />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="name">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject" required />
+                </div>
+                <div class="form-group">
+                  <label for="name">Message</label>
+                  <textarea class="form-control" name="message" rows="10" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
           </div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" />
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-          </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#faf1e4"
+            fill-opacity="1"
+            d="M0,96L24,122.7C48,149,96,203,144,186.7C192,171,240,85,288,80C336,75,384,149,432,154.7C480,160,528,96,576,106.7C624,117,672,203,720,197.3C768,192,816,96,864,101.3C912,107,960,213,1008,229.3C1056,245,1104,171,1152,154.7C1200,139,1248,181,1296,202.7C1344,224,1392,224,1416,224L1440,224L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
+          ></path>
+        </svg>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" style="background-color: #c08261">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>iPortfolio</span></strong>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+          Designed by <a href="https://www.instagram.com/fiqfahra/?igshid=OGQ5ZDc2ODk2ZA%3D%3D">FiqriFahra</a>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#faf1e4"
-          fill-opacity="1"
-          d="M0,96L24,122.7C48,149,96,203,144,186.7C192,171,240,85,288,80C336,75,384,149,432,154.7C480,160,528,96,576,106.7C624,117,672,203,720,197.3C768,192,816,96,864,101.3C912,107,960,213,1008,229.3C1056,245,1104,171,1152,154.7C1200,139,1248,181,1296,202.7C1344,224,1392,224,1416,224L1440,224L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!--Akhir Contact-->
-
-    <!--Footer-->
-    <footer>
-      <h5 class="text-center" style="background-color: #c08261; padding: 25px">Copyright @<a href="https://www.instagram.com/fiqfahra/?igshid=OGQ5ZDc2ODk2ZA%3D%3D">Fiqri Fahra</a></h5>
     </footer>
-    <!--Akhir Footer-->
+    <!-- End  Footer -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="Portfolio-Bootstrap 5 Template/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="Portfolio-Bootstrap 5 Template/assets/vendor/aos/aos.js"></script>
+    <script src="Portfolio-Bootstrap 5 Template/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="Portfolio-Bootstrap 5 Template/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="Portfolio-Bootstrap 5 Template/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="Portfolio-Bootstrap 5 Template/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="Portfolio-Bootstrap 5 Template/assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="Portfolio-Bootstrap 5 Template/assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="Portfolio-Bootstrap 5 Template/assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="Portfolio-Bootstrap 5 Template/assets/js/main.js"></script>
   </body>
 </html>
